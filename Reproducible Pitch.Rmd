@@ -1,0 +1,34 @@
+---
+title: "Untitled"
+author: "Vinay Sri Harsha"
+date: "8/23/2019"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Coursera Reproducible Pitch
+
+- URL: *https://github.com/vmattapalli/Developing-Data-Products*
+- Find here all the data that have been use for this presentation and also for the first part of the data Science Project: "First, you will create a Shiny application and deploy it on Rstudio's servers.Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application."
+
+### Find all details here
+URL: *https://www.coursera.org/learn/data-products/peer/tMYrn/course-project-shiny-application-and-reproducible-pitch*
+
+---
+
+## mtcars Dataset
+
+### Motor Trend Car Road Tests
+
+> The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models).
+### Source
+> Henderson and Velleman (1981), Building multiple regression models interactively. Biometrics, 37, 391-411.
+
+```{r}
+library(randomForest)
+library(datasets)
+head(mtcars, 3)
+```
